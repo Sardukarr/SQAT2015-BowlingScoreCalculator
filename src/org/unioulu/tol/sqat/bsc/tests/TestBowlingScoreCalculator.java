@@ -32,6 +32,13 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void DefinitionOfGame() {
 		//Arrange
+		BowlingGame game = setup();
+		//Act
+		//Assert
+		
+		assertEquals(10,game.getFrames().size(),0);
+	}
+	private BowlingGame setup() {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(1,5));
 		game.addFrame(new Frame(3,6));
@@ -43,10 +50,7 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(new Frame(4,5));
 		game.addFrame(new Frame(8,1));
 		game.addFrame(new Frame(2,6));
-		//Act
-		//Assert
-		
-		assertEquals(10,game.getFrames().size(),0);
+		return game;
 	}
 	
 }
