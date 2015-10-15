@@ -14,6 +14,8 @@ public class BowlingGame {
 	}
 	
 	public void addFrame(Frame frame){
+		if(frames.size()==9)
+			frame.setIsLast(true);
 		frames.add(frame);
 	}
 	
@@ -22,6 +24,9 @@ public class BowlingGame {
 	}
 
 	public void setFrames(List<Frame> frames) {
+		if(frames.size()==10)
+			frames.get(9).setIsLast(true);
+		
 		this.frames = frames;
 	}
 

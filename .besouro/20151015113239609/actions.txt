@@ -212,3 +212,4 @@ RefactoringAction 1444904672906 Frame.java RENAME IsLast=>boolean isLast FIELD
 RefactoringAction 1444904677429 Frame.java RENAME setIsLast(boolean)=>void setisLast(boolean) METHOD
 RefactoringAction 1444904680942 Frame.java RENAME setisLast(boolean)=>void setIsLast(boolean) METHOD
 EditAction 1444904872213 Frame.java 1044 8 11 0
+EditAction 1444904878961 BowlingGame.java 1468 7 12 0
