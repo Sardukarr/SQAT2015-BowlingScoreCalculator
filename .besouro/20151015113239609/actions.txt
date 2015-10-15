@@ -213,3 +213,8 @@ RefactoringAction 1444904677429 Frame.java RENAME setIsLast(boolean)=>void setis
 RefactoringAction 1444904680942 Frame.java RENAME setisLast(boolean)=>void setIsLast(boolean) METHOD
 EditAction 1444904872213 Frame.java 1044 8 11 0
 EditAction 1444904878961 BowlingGame.java 1468 7 12 0
+UnitTestCaseAction 1444904882690 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444904882691 TestBowlingScoreCalculator OK
+RefactoringAction 1444904964052 TestBowlingScoreCalculator.java ADD void GameScoreWithSpareTest()/2 METHOD
+RefactoringAction 1444904969077 TestBowlingScoreCalculator.java RENAME GameScoreWithSpareTest()/2=>void GameScoreWithLastSpareTest() METHOD
+EditAction 1444905091798 TestBowlingScoreCalculator.java 3979 14 74 13
