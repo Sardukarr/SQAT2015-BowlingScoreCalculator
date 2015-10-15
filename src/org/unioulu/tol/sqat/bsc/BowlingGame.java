@@ -40,6 +40,12 @@ public class BowlingGame {
 			
 			if(wasStrike)
 			{
+				if(wasDoubleStrike)
+				{
+				 score=score+f.getFirstThrow();
+				 wasDoubleStrike=false;
+				}
+			
 				if(f.isStrike())
 				{
 					wasDoubleStrike=true;
@@ -49,11 +55,6 @@ public class BowlingGame {
 				wasStrike=false;
 			}
 			
-			if(wasDoubleStrike)
-				{
-				 score=score+f.getFirstThrow();
-				 wasDoubleStrike=false;
-				}
 			
 			if(f.isStrike())
 			{
