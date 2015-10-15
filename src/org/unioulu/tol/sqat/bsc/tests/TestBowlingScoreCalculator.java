@@ -11,6 +11,7 @@ import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
 
+	Frame strike = new Frame(10,0);
 	@Test
 	public void testFrameAdd() {
 		//Arrange
@@ -65,7 +66,7 @@ public class TestBowlingScoreCalculator {
 	public void GameScoreWithStrikeTest() {
 		//Arrange
 		BowlingGame game = setup();
-		Frame strike = new Frame (10,0);
+
 		//Act
 		List<Frame> temp = new ArrayList<Frame>();
 		temp=game.getFrames();
@@ -105,7 +106,7 @@ public class TestBowlingScoreCalculator {
 		//Arrange
 		BowlingGame game = setup();
 		Frame spare = new Frame (4,6);
-		Frame strike = new Frame(10,0);
+
 		
 		//Act
 		List<Frame> temp = new ArrayList<Frame>();
@@ -121,7 +122,7 @@ public class TestBowlingScoreCalculator {
 	public void GameScoreWith2xStrikesTest() {
 		//Arrange
 		BowlingGame game = setup();
-		Frame strike = new Frame(10,0);
+		
 		
 		//Act
 		List<Frame> temp = new ArrayList<Frame>();
