@@ -151,7 +151,17 @@ public class TestBowlingScoreCalculator {
 		assertEquals(98,game.score(),0);
 	}
 	
-	
+	@Test
+	public void LastFrameTest() {
+		//Arrange
+		BowlingGame game = setup();
+		Frame frame = new Frame(10,0);
+		//Act
+		
+		//Assert
+		
+		assertTrue(null,frame.isLastFrame());
+	}
 	private BowlingGame setup() {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(1,5));

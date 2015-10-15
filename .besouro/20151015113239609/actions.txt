@@ -195,3 +195,9 @@ UnitTestCaseAction 1444904097612 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444904097613 TestBowlingScoreCalculator OK
 RefactoringAction 1444904128929 TestBowlingScoreCalculator.java ADD Frame strike FIELD
 EditAction 1444904155719 TestBowlingScoreCalculator.java 3429 12 63 11
+UnitTestCaseAction 1444904163144 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444904163145 TestBowlingScoreCalculator OK
+RefactoringAction 1444904218144 TestBowlingScoreCalculator.java ADD void StrikeRecognation()/2 METHOD
+RefactoringAction 1444904222672 TestBowlingScoreCalculator.java RENAME StrikeRecognation()/2=>void Last() METHOD
+RefactoringAction 1444904225702 TestBowlingScoreCalculator.java RENAME Last()=>void LastFrameTest() METHOD
+EditAction 1444904371196 TestBowlingScoreCalculator.java 3618 13 66 12
