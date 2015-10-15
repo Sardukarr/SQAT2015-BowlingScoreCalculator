@@ -33,9 +33,17 @@ public class TestBowlingScoreCalculator {
 	public void DefinitionOfGame() {
 		//Arrange
 		BowlingGame game = new BowlingGame();
-		Frame frame = new Frame(2,4);
+		game.addFrame(new Frame(1,5));
+		game.addFrame(new Frame(3,6));
+		game.addFrame(new Frame(7,2));
+		game.addFrame(new Frame(3,6));
+		game.addFrame(new Frame(4,4));
+		game.addFrame(new Frame(5,3));
+		game.addFrame(new Frame(3,3));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(8,1));
+		game.addFrame(new Frame(2,6));
 		//Act
-		game.addFrame(frame);
 		//Assert
 		
 		assertEquals(10,game.getFrames().size(),0);

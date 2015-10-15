@@ -52,3 +52,20 @@ RefactoringAction 1444899798736 TestBowlingScoreCalculator.java RENAME D()=>void
 RefactoringAction 1444899800753 TestBowlingScoreCalculator.java RENAME DefinitionOf()=>void DefinitionOfGa() METHOD
 RefactoringAction 1444899801770 TestBowlingScoreCalculator.java RENAME DefinitionOfGa()=>void DefinitionOfGame() METHOD
 EditAction 1444899860029 TestBowlingScoreCalculator.java 858 3 10 3
+UnitTestCaseAction 1444899865019 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444899865020 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444899973291 BowlingGame.java ADD BowlingGame()/2 METHOD
+RefactoringAction 1444900183398 BowlingGame.java RENAME BowlingGame()/2=>BowlingGame(int) METHOD
+RefactoringAction 1444900188435 BowlingGame.java RENAME BowlingGame(int)=>BowlingGame(int, int) METHOD
+RefactoringAction 1444900193985 BowlingGame.java RENAME BowlingGame(int, int)=>BowlingGame(int, int, int) METHOD
+RefactoringAction 1444900200503 BowlingGame.java RENAME BowlingGame(int, int, int)=>BowlingGame()/2 METHOD
+RefactoringAction 1444900261246 BowlingGame.java RENAME BowlingGame()/2=>BowlingGame(int) METHOD
+RefactoringAction 1444900264767 BowlingGame.java RENAME BowlingGame(int)=>BowlingGame(int, int) METHOD
+RefactoringAction 1444900267308 BowlingGame.java RENAME BowlingGame(int, int)=>BowlingGame(int, int, int) METHOD
+RefactoringAction 1444900271329 BowlingGame.java RENAME BowlingGame(int, int, int)=>BowlingGame(int, int, int, int) METHOD
+RefactoringAction 1444900274871 BowlingGame.java RENAME BowlingGame(int, int, int, int)=>BowlingGame(int, int, int, int, int) METHOD
+RefactoringAction 1444900278411 BowlingGame.java RENAME BowlingGame(int, int, int, int, int)=>BowlingGame(int, int, int, int, int, int) METHOD
+RefactoringAction 1444900281951 BowlingGame.java RENAME BowlingGame(int, int, int, int, int, int)=>BowlingGame(int, int, int, int, int, int, int) METHOD
+RefactoringAction 1444900284972 BowlingGame.java RENAME BowlingGame(int, int, int, int, int, int, int)=>BowlingGame(int, int, int, int, int, int, int, int) METHOD
+RefactoringAction 1444900309010 BowlingGame.java REMOVE BowlingGame(int, int, int, int, int, int, int, int) METHOD
+EditAction 1444900746418 TestBowlingScoreCalculator.java 1140 3 18 3
