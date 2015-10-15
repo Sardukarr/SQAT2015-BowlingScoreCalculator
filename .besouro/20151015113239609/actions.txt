@@ -82,3 +82,6 @@ RefactoringAction 1444900913055 TestBowlingScoreCalculator.java RENAME Definitio
 RefactoringAction 1444900914575 TestBowlingScoreCalculator.java RENAME Score()=>void ScoreTest() METHOD
 RefactoringAction 1444900920094 TestBowlingScoreCalculator.java RENAME ScoreTest()=>void GameScoreTest() METHOD
 EditAction 1444900966817 TestBowlingScoreCalculator.java 1381 5 22 4
+UnitTestCaseAction 1444900970609 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444900970610 TestBowlingScoreCalculator FAIL
+EditAction 1444901160855 BowlingGame.java 792 7 7 0
