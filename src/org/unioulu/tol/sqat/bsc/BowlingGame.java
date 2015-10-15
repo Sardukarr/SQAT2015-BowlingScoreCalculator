@@ -64,6 +64,7 @@ public class BowlingGame {
 			if(f.isStrike())
 			{
 				wasStrike=true;
+
 			}
 			
 			if(wasSpare)
@@ -84,8 +85,9 @@ public class BowlingGame {
 		this.bonus = bonus;
 	}
 
-	public boolean isNextFrameBonus(){
-		//to be implemented
+	public boolean isNextFrameBonus(int i){
+		if(frames.get(i).isLastFrame())
+			return true;
 		return false;
 	}
 }
