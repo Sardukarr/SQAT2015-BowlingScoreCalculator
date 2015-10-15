@@ -69,3 +69,4 @@ RefactoringAction 1444900281951 BowlingGame.java RENAME BowlingGame(int, int, in
 RefactoringAction 1444900284972 BowlingGame.java RENAME BowlingGame(int, int, int, int, int, int, int)=>BowlingGame(int, int, int, int, int, int, int, int) METHOD
 RefactoringAction 1444900309010 BowlingGame.java REMOVE BowlingGame(int, int, int, int, int, int, int, int) METHOD
 EditAction 1444900746418 TestBowlingScoreCalculator.java 1140 3 18 3
+EditAction 1444900756696 BowlingGame.java 729 7 5 0
