@@ -133,6 +133,22 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(112,game.score(),0);
 	}
+	public void GameScoreWith2xSpareTest() {
+		//Arrange
+		BowlingGame game = setup();
+		Frame spare = new Frame (8,2);
+		Frame spare2 = new Frame (5,5);
+		//Act
+		List<Frame> temp = new ArrayList<Frame>();
+		temp=game.getFrames();
+		temp.set(0, spare);
+		temp.set(1, spare2);
+		game.setFrames(temp);
+		//Assert
+		
+		assertEquals(92,game.score(),0);
+	}
+	
 	
 	private BowlingGame setup() {
 		BowlingGame game = new BowlingGame();
