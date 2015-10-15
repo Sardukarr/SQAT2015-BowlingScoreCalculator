@@ -76,7 +76,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals(94,game.score(),0);
 	}
 	@Test
-	public voidSpareRecognation() {
+	public void SpareRecognation() {
 		//Arrange
 		Frame frame = new Frame(1,9);
 		//Act
