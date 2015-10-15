@@ -31,9 +31,20 @@ public class BowlingGame {
 	
 	public int score(){
 		int score=0;
+		boolean wasStrike=false;
 		for(Frame f: frames)
 		{
 			score=score+f.score();
+			if(wasStrike)
+			{
+				score=score+f.score();
+				wasStrike=false;
+			}
+			if(f.isStrike())
+			{
+				wasStrike=true;
+			}
+			
 			
 		}
 		return score;
