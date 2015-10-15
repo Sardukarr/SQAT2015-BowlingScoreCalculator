@@ -204,3 +204,11 @@ EditAction 1444904371196 TestBowlingScoreCalculator.java 3618 13 66 12
 UnitTestCaseAction 1444904374948 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444904374949 TestBowlingScoreCalculator FAIL
 EditAction 1444904432194 TestBowlingScoreCalculator.java 3626 13 66 12
+UnitTestCaseAction 1444904439015 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444904439016 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444904460027 Frame.java ADD boolean IsLast FIELD
+RefactoringAction 1444904626150 Frame.java ADD void setIsLast(boolean) METHOD
+RefactoringAction 1444904672906 Frame.java RENAME IsLast=>boolean isLast FIELD
+RefactoringAction 1444904677429 Frame.java RENAME setIsLast(boolean)=>void setisLast(boolean) METHOD
+RefactoringAction 1444904680942 Frame.java RENAME setisLast(boolean)=>void setIsLast(boolean) METHOD
+EditAction 1444904872213 Frame.java 1044 8 11 0
