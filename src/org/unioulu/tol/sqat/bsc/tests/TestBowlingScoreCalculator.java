@@ -61,6 +61,7 @@ public class TestBowlingScoreCalculator {
 		
 		assertTrue(null,frame.isStrike());
 	}
+	@Test
 	public void GameScoreWithStrikeTest() {
 		//Arrange
 		BowlingGame game = setup();

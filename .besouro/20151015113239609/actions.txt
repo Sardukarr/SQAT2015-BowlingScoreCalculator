@@ -110,3 +110,6 @@ RefactoringAction 1444901640917 TestBowlingScoreCalculator.java RENAME GameScore
 RefactoringAction 1444901775990 TestBowlingScoreCalculator.java ADD import java.util.ArrayList IMPORT
 RefactoringAction 1444901775991 TestBowlingScoreCalculator.java ADD import java.util.List IMPORT
 EditAction 1444902090156 TestBowlingScoreCalculator.java 1903 7 31 6
+UnitTestCaseAction 1444902093720 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444902093721 TestBowlingScoreCalculator OK
+EditAction 1444902111664 TestBowlingScoreCalculator.java 1911 7 31 6
