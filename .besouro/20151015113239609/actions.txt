@@ -144,3 +144,11 @@ RefactoringAction 1444902866580 Frame.java ADD void setFirstThrow(int) METHOD
 RefactoringAction 1444902874591 Frame.java REMOVE setFirstThrow(int) METHOD
 EditAction 1444902881108 Frame.java 946 7 9 0
 EditAction 1444903013573 BowlingGame.java 1129 7 9 0
+UnitTestCaseAction 1444903019232 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444903019233 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1444903077172 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444903077173 TestBowlingScoreCalculator OK
+RefactoringAction 1444903142306 TestBowlingScoreCalculator.java ADD void GameScoreWithSpareTest()/2 METHOD
+RefactoringAction 1444903148335 TestBowlingScoreCalculator.java RENAME GameScoreWithSpareTest()/2=>void GameScoreWithSpareAndStriTest() METHOD
+RefactoringAction 1444903149358 TestBowlingScoreCalculator.java RENAME GameScoreWithSpareAndStriTest()=>void GameScoreWithSpareAndStrikeTest() METHOD
+EditAction 1444903225378 TestBowlingScoreCalculator.java 2770 10 49 9

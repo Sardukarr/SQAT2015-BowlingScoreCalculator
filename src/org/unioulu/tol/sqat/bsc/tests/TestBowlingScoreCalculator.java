@@ -100,6 +100,24 @@ public class TestBowlingScoreCalculator {
 		assertEquals(88,game.score(),0);
 	}
 	
+	@Test
+	public void GameScoreWithSpareAndStrikeTest() {
+		//Arrange
+		BowlingGame game = setup();
+		Frame spare = new Frame (1,9);
+		Frame strike = new Frame(10,0);
+		
+		//Act
+		List<Frame> temp = new ArrayList<Frame>();
+		temp=game.getFrames();
+		temp.set(0, strike);
+		temp.set(1, spare);
+		game.setFrames(temp);
+		//Assert
+		
+		assertEquals(103,game.score(),0);
+	}
+	
 	private BowlingGame setup() {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(1,5));
