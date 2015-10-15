@@ -56,7 +56,7 @@ public class TestBowlingScoreCalculator {
 		
 		//Assert
 		
-		frame.isStrike();
+		assertTrue(null,frame.isStrike());
 	}
 	
 	private BowlingGame setup() {

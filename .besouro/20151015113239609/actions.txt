@@ -95,3 +95,6 @@ RefactoringAction 1444901246560 TestBowlingScoreCalculator.java RENAME Stri()=>v
 RefactoringAction 1444901282339 TestBowlingScoreCalculator.java ADD void assertEquals(boolean, boolean, int) METHOD
 RefactoringAction 1444901294432 TestBowlingScoreCalculator.java REMOVE assertEquals(boolean, boolean, int) METHOD
 EditAction 1444901339311 TestBowlingScoreCalculator.java 1523 6 24 4
+UnitTestCaseAction 1444901349474 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444901349474 TestBowlingScoreCalculator OK
+EditAction 1444901487054 TestBowlingScoreCalculator.java 1540 6 24 5
