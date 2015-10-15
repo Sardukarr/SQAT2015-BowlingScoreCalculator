@@ -137,3 +137,9 @@ UnitTestSessionAction 1444902639721 TestBowlingScoreCalculator OK
 RefactoringAction 1444902664442 TestBowlingScoreCalculator.java ADD void GameScoreWithStrikeTest()/2 METHOD
 RefactoringAction 1444902670469 TestBowlingScoreCalculator.java RENAME GameScoreWithStrikeTest()/2=>void GameScoreWithSpareTest() METHOD
 EditAction 1444902758428 TestBowlingScoreCalculator.java 2382 9 40 8
+UnitTestCaseAction 1444902763838 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444902763839 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444902866579 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1444902866580 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1444902874591 Frame.java REMOVE setFirstThrow(int) METHOD
+EditAction 1444902881108 Frame.java 946 7 9 0

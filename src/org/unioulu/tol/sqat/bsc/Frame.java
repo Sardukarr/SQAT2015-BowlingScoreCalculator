@@ -1,6 +1,12 @@
 package org.unioulu.tol.sqat.bsc;
 
 public class Frame {
+	
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+
+
 	private int firstThrow;
 	private int secondThrow;
 	
