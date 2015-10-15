@@ -80,6 +80,10 @@ public class BowlingGame {
 		return score;
 	}
 	
+	public void setBonus(Frame bonus) {
+		this.bonus = bonus;
+	}
+
 	public boolean isNextFrameBonus(){
 		//to be implemented
 		return false;
