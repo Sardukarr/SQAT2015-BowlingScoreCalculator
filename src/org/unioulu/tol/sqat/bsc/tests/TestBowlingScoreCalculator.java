@@ -48,7 +48,16 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(81,game.score(),0);
 	}
-	
+	@Test
+	public void StrikeRecognation() {
+		//Arrange
+		Frame frame = new Frame(10,0);
+		//Act
+		
+		//Assert
+		
+		frame.isStrike();
+	}
 	
 	private BowlingGame setup() {
 		BowlingGame game = new BowlingGame();

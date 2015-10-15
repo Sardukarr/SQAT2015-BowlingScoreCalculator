@@ -85,3 +85,13 @@ EditAction 1444900966817 TestBowlingScoreCalculator.java 1381 5 22 4
 UnitTestCaseAction 1444900970609 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444900970610 TestBowlingScoreCalculator FAIL
 EditAction 1444901160855 BowlingGame.java 792 7 7 0
+UnitTestCaseAction 1444901168736 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444901168738 TestBowlingScoreCalculator OK
+RefactoringAction 1444901229974 TestBowlingScoreCalculator.java ADD void testScoreOfFreme()/2 METHOD
+RefactoringAction 1444901237997 TestBowlingScoreCalculator.java RENAME testScoreOfFreme()/2=>void Strike() METHOD
+RefactoringAction 1444901240518 TestBowlingScoreCalculator.java RENAME Strike()=><initializer /1> null
+RefactoringAction 1444901242539 TestBowlingScoreCalculator.java RENAME <initializer /1>=>void Stri() METHOD
+RefactoringAction 1444901246560 TestBowlingScoreCalculator.java RENAME Stri()=>void StrikeRecognation() METHOD
+RefactoringAction 1444901282339 TestBowlingScoreCalculator.java ADD void assertEquals(boolean, boolean, int) METHOD
+RefactoringAction 1444901294432 TestBowlingScoreCalculator.java REMOVE assertEquals(boolean, boolean, int) METHOD
+EditAction 1444901339311 TestBowlingScoreCalculator.java 1523 6 24 4
