@@ -35,6 +35,7 @@ public class BowlingGame {
 		for(Frame f: frames)
 		{
 			score=score+f.score();
+			
 			if(wasStrike)
 			{
 				score=score+f.score();
