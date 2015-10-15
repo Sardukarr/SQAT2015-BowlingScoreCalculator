@@ -155,7 +155,7 @@ public class TestBowlingScoreCalculator {
 	public void LastFrameTest() {
 		//Arrange
 		BowlingGame game = setup();
-		Frame frame = new Frame(10,0);
+		Frame frame = game.getFrames().get(9);
 		//Act
 		
 		//Assert
