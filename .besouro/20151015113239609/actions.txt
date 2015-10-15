@@ -218,3 +218,4 @@ UnitTestSessionAction 1444904882691 TestBowlingScoreCalculator OK
 RefactoringAction 1444904964052 TestBowlingScoreCalculator.java ADD void GameScoreWithSpareTest()/2 METHOD
 RefactoringAction 1444904969077 TestBowlingScoreCalculator.java RENAME GameScoreWithSpareTest()/2=>void GameScoreWithLastSpareTest() METHOD
 EditAction 1444905091798 TestBowlingScoreCalculator.java 3979 14 74 13
+EditAction 1444905138715 TestBowlingScoreCalculator.java 3979 14 74 13
