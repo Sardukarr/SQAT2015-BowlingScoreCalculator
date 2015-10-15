@@ -19,5 +19,15 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(1,game.getFrames().size(),0);
 	}
+	@Test
+	public void testScoreOfFreme() {
+		//Arrange
+		Frame frame = new Frame(2,4);
+		//Act
+		
+		//Assert
+		
+		assertEquals(6,frame.score(),0);
+	}
 
 }
