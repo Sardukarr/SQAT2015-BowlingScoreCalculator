@@ -24,3 +24,5 @@ UnitTestSessionAction 1444899283542 TestBowlingScoreCalculator OK
 RefactoringAction 1444899333318 BowlingGame.java ADD List<Frame> getFrames() METHOD
 RefactoringAction 1444899333319 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
 EditAction 1444899419603 TestBowlingScoreCalculator.java 468 1 4 1
+CompilationAction 1444899423208 TestBowlingScoreCalculator.java
+EditAction 1444899435603 BowlingGame.java 719 7 5 0

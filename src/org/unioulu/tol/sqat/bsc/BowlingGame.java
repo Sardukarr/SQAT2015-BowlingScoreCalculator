@@ -14,6 +14,14 @@ public class BowlingGame {
 		frames.add(frame);
 	}
 	
+	public List<Frame> getFrames() {
+		return frames;
+	}
+
+	public void setFrames(List<Frame> frames) {
+		this.frames = frames;
+	}
+
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 	}
