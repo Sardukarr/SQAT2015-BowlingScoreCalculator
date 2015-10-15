@@ -132,3 +132,8 @@ UnitTestSessionAction 1444902460382 TestBowlingScoreCalculator.SpareRecognation 
 UnitTestCaseAction 1444902470807 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444902470808 TestBowlingScoreCalculator FAIL
 EditAction 1444902628728 Frame.java 882 6 8 0
+UnitTestCaseAction 1444902639720 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444902639721 TestBowlingScoreCalculator OK
+RefactoringAction 1444902664442 TestBowlingScoreCalculator.java ADD void GameScoreWithStrikeTest()/2 METHOD
+RefactoringAction 1444902670469 TestBowlingScoreCalculator.java RENAME GameScoreWithStrikeTest()/2=>void GameScoreWithSpareTest() METHOD
+EditAction 1444902758428 TestBowlingScoreCalculator.java 2382 9 40 8
