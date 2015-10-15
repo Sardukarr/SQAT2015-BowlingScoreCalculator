@@ -152,3 +152,10 @@ RefactoringAction 1444903142306 TestBowlingScoreCalculator.java ADD void GameSco
 RefactoringAction 1444903148335 TestBowlingScoreCalculator.java RENAME GameScoreWithSpareTest()/2=>void GameScoreWithSpareAndStriTest() METHOD
 RefactoringAction 1444903149358 TestBowlingScoreCalculator.java RENAME GameScoreWithSpareAndStriTest()=>void GameScoreWithSpareAndStrikeTest() METHOD
 EditAction 1444903225378 TestBowlingScoreCalculator.java 2770 10 49 9
+UnitTestCaseAction 1444903230256 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444903230257 TestBowlingScoreCalculator OK
+RefactoringAction 1444903306995 TestBowlingScoreCalculator.java ADD Frame strike FIELD
+RefactoringAction 1444903325525 TestBowlingScoreCalculator.java ADD Frame spare FIELD
+RefactoringAction 1444903349552 TestBowlingScoreCalculator.java REMOVE spare FIELD
+RefactoringAction 1444903349553 TestBowlingScoreCalculator.java REMOVE strike FIELD
+EditAction 1444903376633 TestBowlingScoreCalculator.java 2770 10 49 9
