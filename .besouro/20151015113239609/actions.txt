@@ -117,3 +117,10 @@ UnitTestCaseAction 1444902116892 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444902116893 TestBowlingScoreCalculator FAIL
 EditAction 1444902298626 BowlingGame.java 959 7 8 0
 EditAction 1444902314397 BowlingGame.java 964 7 8 0
+UnitTestCaseAction 1444902317771 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444902317772 TestBowlingScoreCalculator OK
+RefactoringAction 1444902409350 TestBowlingScoreCalculator.java ADD void StrikeRecognation()/2 METHOD
+RefactoringAction 1444902414389 TestBowlingScoreCalculator.java RENAME StrikeRecognation()/2=>void voidSpe() METHOD
+RefactoringAction 1444902416413 TestBowlingScoreCalculator.java RENAME voidSpe()=>void voidSpare() METHOD
+RefactoringAction 1444902419438 TestBowlingScoreCalculator.java RENAME voidSpare()=>void voidSpareRecognation() METHOD
+EditAction 1444902448790 TestBowlingScoreCalculator.java 2069 8 33 7

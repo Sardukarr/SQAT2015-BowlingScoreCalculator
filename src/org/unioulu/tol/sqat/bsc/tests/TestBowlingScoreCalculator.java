@@ -75,6 +75,16 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(94,game.score(),0);
 	}
+	@Test
+	public voidSpareRecognation() {
+		//Arrange
+		Frame frame = new Frame(1,9);
+		//Act
+		
+		//Assert
+		
+		assertTrue(null,frame.isSpare());
+	}
 	
 	private BowlingGame setup() {
 		BowlingGame game = new BowlingGame();
