@@ -8,7 +8,16 @@ import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
 
-
+	@Test
+	public void testFrameAdd() {
+		//Arrange
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(2,4);
+		//Act
+		game.addFrame(frame);
+		//Assert
+		
+		assertEquals(0,1,0);
 	}
 
 }
