@@ -38,6 +38,9 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(10,game.getFrames().size(),0);
 	}
+	
+	
+	
 	private BowlingGame setup() {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(1,5));
