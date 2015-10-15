@@ -75,3 +75,10 @@ UnitTestSessionAction 1444900760414 TestBowlingScoreCalculator OK
 RefactoringAction 1444900804568 TestBowlingScoreCalculator.java ADD BowlingGame setup() METHOD
 EditAction 1444900804579 TestBowlingScoreCalculator.java 1223 4 20 3
 EditAction 1444900839020 TestBowlingScoreCalculator.java 1232 4 20 3
+UnitTestCaseAction 1444900844372 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900844373 TestBowlingScoreCalculator OK
+RefactoringAction 1444900907517 TestBowlingScoreCalculator.java ADD void DefinitionOfGame()/2 METHOD
+RefactoringAction 1444900913055 TestBowlingScoreCalculator.java RENAME DefinitionOfGame()/2=>void Score() METHOD
+RefactoringAction 1444900914575 TestBowlingScoreCalculator.java RENAME Score()=>void ScoreTest() METHOD
+RefactoringAction 1444900920094 TestBowlingScoreCalculator.java RENAME ScoreTest()=>void GameScoreTest() METHOD
+EditAction 1444900966817 TestBowlingScoreCalculator.java 1381 5 22 4

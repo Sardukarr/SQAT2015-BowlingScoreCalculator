@@ -39,6 +39,15 @@ public class TestBowlingScoreCalculator {
 		assertEquals(10,game.getFrames().size(),0);
 	}
 	
+	@Test
+	public void GameScoreTest() {
+		//Arrange
+		BowlingGame game = setup();
+		//Act
+		//Assert
+		
+		assertEquals(81,game.score(),0);
+	}
 	
 	
 	private BowlingGame setup() {
