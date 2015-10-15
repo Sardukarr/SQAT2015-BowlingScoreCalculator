@@ -131,7 +131,7 @@ public class TestBowlingScoreCalculator {
 		game.setFrames(temp);
 		//Assert
 		
-		assertEquals(103,game.score(),0);
+		assertEquals(112,game.score(),0);
 	}
 	
 	private BowlingGame setup() {
