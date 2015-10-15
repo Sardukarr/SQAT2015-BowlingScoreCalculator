@@ -133,6 +133,7 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(112,game.score(),0);
 	}
+	@Test
 	public void GameScoreWith2xSpareTest() {
 		//Arrange
 		BowlingGame game = setup();
