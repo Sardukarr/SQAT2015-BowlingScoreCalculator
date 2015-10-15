@@ -143,3 +143,4 @@ RefactoringAction 1444902866579 Frame.java ADD int getFirstThrow() METHOD
 RefactoringAction 1444902866580 Frame.java ADD void setFirstThrow(int) METHOD
 RefactoringAction 1444902874591 Frame.java REMOVE setFirstThrow(int) METHOD
 EditAction 1444902881108 Frame.java 946 7 9 0
+EditAction 1444903013573 BowlingGame.java 1129 7 9 0
