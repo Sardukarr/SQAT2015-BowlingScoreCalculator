@@ -32,6 +32,7 @@ public class BowlingGame {
 	public int score(){
 		int score=0;
 		boolean wasStrike=false;
+		boolean wasDoubleStrike=false;
 		boolean wasSpare=false;
 		for(Frame f: frames)
 		{
@@ -39,9 +40,21 @@ public class BowlingGame {
 			
 			if(wasStrike)
 			{
+				if(f.isStrike())
+				{
+					wasDoubleStrike=true;
+				}
+				
 				score=score+f.score();
 				wasStrike=false;
 			}
+			
+			if(wasDoubleStrike)
+				{
+				 score=score+f.getFirstThrow();
+				 wasDoubleStrike=false;
+				}
+			
 			if(f.isStrike())
 			{
 				wasStrike=true;
