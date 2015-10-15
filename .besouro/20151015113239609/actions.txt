@@ -102,3 +102,11 @@ UnitTestCaseAction 1444901492890 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444901492891 TestBowlingScoreCalculator FAIL
 EditAction 1444901572770 Frame.java 815 6 7 0
 EditAction 1444901579604 Frame.java 817 6 7 0
+UnitTestCaseAction 1444901585681 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444901585682 TestBowlingScoreCalculator OK
+RefactoringAction 1444901619870 TestBowlingScoreCalculator.java ADD void GameScoreTest()/2 METHOD
+RefactoringAction 1444901638894 TestBowlingScoreCalculator.java RENAME GameScoreTest()/2=>void GameScoreWithTest() METHOD
+RefactoringAction 1444901640917 TestBowlingScoreCalculator.java RENAME GameScoreWithTest()=>void GameScoreWithStrikeTest() METHOD
+RefactoringAction 1444901775990 TestBowlingScoreCalculator.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1444901775991 TestBowlingScoreCalculator.java ADD import java.util.List IMPORT
+EditAction 1444902090156 TestBowlingScoreCalculator.java 1903 7 31 6

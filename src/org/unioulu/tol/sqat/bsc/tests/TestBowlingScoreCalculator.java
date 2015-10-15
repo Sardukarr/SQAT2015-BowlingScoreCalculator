@@ -2,6 +2,9 @@ package org.unioulu.tol.sqat.bsc.tests;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 import org.unioulu.tol.sqat.bsc.BowlingGame;
 import org.unioulu.tol.sqat.bsc.Frame;
@@ -57,6 +60,19 @@ public class TestBowlingScoreCalculator {
 		//Assert
 		
 		assertTrue(null,frame.isStrike());
+	}
+	public void GameScoreWithStrikeTest() {
+		//Arrange
+		BowlingGame game = setup();
+		Frame strike = new Frame (10,0);
+		//Act
+		List<Frame> temp = new ArrayList<Frame>();
+		temp=game.getFrames();
+		temp.set(0, strike);
+		game.setFrames(temp);
+		//Assert
+		
+		assertEquals(94,game.score(),0);
 	}
 	
 	private BowlingGame setup() {
